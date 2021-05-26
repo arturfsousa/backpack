@@ -532,6 +532,8 @@ showWeekendSeparator
 weekStartsOn
 initiallyFocusedDate
 changeMonthLabel
+previousMonthLabel
+nextMonthLabel
 daysOfWeek
 formatDate
 formatDateFull
@@ -820,3 +822,7 @@ onOpenChange
 politenessSetting
 Inkscape
 Figma
+ratingScale
+RATING_SCALES
+RATING_SCALES.zeroToTen
+Storyshots

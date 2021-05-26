@@ -21,6 +21,7 @@ import { storiesOf } from '@storybook/react';
 
 import {
   DefaultExample,
+  ZeroToFiveScaleExample,
   Vertical,
   LargeSize,
   LargeVertical,
@@ -29,10 +30,12 @@ import {
   TitleOnly,
   PillRatings,
   PillTitleOnly,
+  MixedExample,
 } from './examples';
 
 storiesOf('bpk-component-rating', module)
   .add('Default', DefaultExample)
+  .add('Zero to five rating scale', ZeroToFiveScaleExample)
   .add('Vertical', Vertical)
   .add('Large size ratings', LargeSize)
   .add('Large vertical ratings', LargeVertical)
@@ -40,4 +43,5 @@ storiesOf('bpk-component-rating', module)
   .add('Small vertical ratings', SmallVertical)
   .add('Title only ratings', TitleOnly)
   .add('Pill ratings', PillRatings)
-  .add('Pill title only ratings', PillTitleOnly);
+  .add('Pill title only ratings', PillTitleOnly)
+  .add('Visual test', MixedExample);

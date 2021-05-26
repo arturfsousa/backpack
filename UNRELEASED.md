@@ -18,3 +18,8 @@
     - `$button-large-padding-x`
     - `$button-large-padding-y`
     - `$button-large-padding-x-icon-only`
+
+**Fixed:**
+
+- bpk-tokens:
+  - Added missing deprecation warning for `bpk-spacing-xs()` function as this spacing no longer exists in the new grid system.
